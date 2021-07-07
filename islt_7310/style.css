@@ -1,4 +1,21 @@
+
 h1 {
  color:#0000ff;
-
 }
+
+
+div p {margin-left: 4%;}
+ 
+
+div p:last-child {
+    margin-left: 0%;
+    }
+
+div p:last-child::first-letter {
+    font-size:300%;
+    color:blueviolet;
+} 
+
+main{clear: both;}
+footer{clear:both;}
+div{clear:both;}
