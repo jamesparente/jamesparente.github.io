@@ -1,0 +1,117 @@
+
+
+
+#bodyid {
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap:1em;
+grid-template-areas: 
+"header-area nav-area nav-area"
+"heading-area heading-area heading-area"
+"main-area photo-area quote-area"
+"para-area photo-area resume-area"
+"foot-area foot-area foot-area";
+
+
+}
+
+@media screen and (max-width:850px) { 
+
+    #bodyid {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap:1em;
+        grid-template-areas: 
+        "header-area"
+        "nav-area"
+        "heading-area"
+        "main-area"
+        "para-area"
+        "photo-area" 
+        "resume-area"
+        "quote-area"
+        "foot-area";
+        }
+
+
+    #headingid { 
+        background-color:green; 
+    } 
+}
+@media screen and (max-width:350px) { 
+
+    #bodyid {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap:1em;
+        grid-template-areas: 
+        "header-area"
+        "nav-area"
+        "heading-area"
+        "main-area"
+        "para-area"
+        "photo-area" 
+        "resume-area"
+        "quote-area"
+        "foot-area";
+        }
+
+
+    #headingid { 
+        background-color:red; 
+    } 
+}   
+
+
+
+
+
+
+#headerid{
+ 
+    grid-area: header-area;
+}
+
+#navid{
+
+    grid-area: nav-area;
+}
+
+#headingid{
+
+    grid-area: heading-area;
+}
+
+#mainid{
+    background-color:lightblue;
+    grid-area: main-area;
+}
+
+#photoid{
+    background-color: lightblue;
+    grid-area: photo-area;
+}
+
+#quoteid{
+    background-color:lightblue;
+    grid-area: quote-area;
+}
+
+#paraid{
+    background-color:lightblue;
+    grid-area: para-area;
+}
+
+#resumeid{
+    background-color:lightblue;
+    grid-area: resume-area;
+}
+
+#footid {
+ 
+    grid-area: foot-area;
+}
+
