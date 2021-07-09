@@ -16,10 +16,12 @@ nav li{
 nav a{
     text-decoration: none;
     display:inline-block;
-    border: 5px solid rgb(0, 102, 255);
-    margin: 5px;
-    padding: 10px;
-    width: 100px;    
+    /* border: 5px solid rgb(5, 33, 75); */
+    margin: 2px;
+    background-color:#9ae7ff;
+    padding: 5px;
+    border-radius: 10px; 
+    width: 120px;    
 }
 
 nav ul>li ul {
@@ -32,6 +34,6 @@ nav>ul>li:hover>ul{
     display: block;
 }
 
-nav a:visited {
+/* nav a:visited {
     color: red;
-}
+} */
