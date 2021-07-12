@@ -1,0 +1,94 @@
+#bodyid {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+} 
+ #logoid {
+  margin-right: 20px; 
+  border-radius: 13px;
+  float: left;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+} 
+
+
+
+#navid ul {
+  list-style: none;
+  position: relative;
+}
+
+#navid ul li {
+  float: left;
+  
+}
+
+#navid ul ul {
+  display: none;
+  position:absolute;
+  
+  top: 100%;
+
+  }
+  #navid ul ul li {
+    float: none;
+  }
+  
+  #navid ul li:hover > ul  {
+    display: block;
+  
+  }
+  
+  #navid ul > ul::after {
+    content:"";
+    display:block;
+    clear:both;
+  }
+/*format */
+  #navid ul {
+    /* margin-top: 3.25em; */
+    padding: 0px;
+  }
+  #navid ul ul{
+    margin-top: 2.5em;
+    padding: 0px;
+  }
+
+  #navid ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display:block;
+    width: 170px;
+    padding: 10px 1px;
+    text-decoration: none;
+    background-color: #536c99;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    border-end-end-radius: 35px;
+    box-shadow: 5px 5px 10px rgb(24, 24, 24);
+    margin: 2px;
+    
+
+  }
+  
+  #navid ul li a:hover {
+    background-color: black;
+  }
+  #cpage {
+    
+    border-end-end-radius: 35px;
+    box-shadow: 9px 9px 10px rgb(255, 255, 255);
+  }
+ 
+  #photoid img{
+    padding-top: 50px;
+    padding-left: 25px;
+    width: 45%;
+    }
+ 
+  /*other format */
+
+ 
+  
+
+
+  
