@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link rel="stylesheet" href="contact-nav.css">
-    <link rel="stylesheet" href="contact-grid.css"> 
+    <link rel="stylesheet" href="contact-grid.css">
+    <link rel="stylesheet" href="contact-form.css"> 
+    <link rel="stylesheet" href="contact-table.css"> 
     <title>Contact - Puzzle Project </title>
 </head>
 
@@ -53,14 +55,99 @@
             https://jamesparente.github.io <br>
             Office hours by appointment</p>
     </main>
+    <form id="formid" action="mailto:jpqwp@missouri.edu?Subject=Educational%20Website%20Contact" method="post" enctype="text/plain">
+        <fieldset>
+        <legend>Get in touch!</legend>
+        <label for="first">First Name:</label>
+        <input type="text" autofocus required>  
+        <br>
+        <label for="Last">Last Name:</label>
+        <input type="text" required>  
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" required>
+        <br>
+        <label for="Message">Message:</label>
+
+        
+        <textarea id="comments" placeholder="comments, suggestions, messages." required></textarea> 
+        <br>
+        <input class="but" type="submit" value="Submit"> <br>
+        <input class="but" type="reset" value="Reset"> 
+    </fieldset>
+        </form>
+
+        <div id="outtableid"style="overflow-x: auto;">
+            <figure>
+            <figcaption><strong id="hours-caption">Office Hours</strong><br>
+            <span id="hours-summary">Column one indicates the day of the week, the second column has morning hours, and the third colum has eveing hours.</span>
+            
+            </figcaption>
+    <table id="tableid" aria-labelledby="hours-caption" aria-describedby="hours-summary">
+        
+<thead>
+<tr>
+    <td>Day</td>
+    <td>Morning</td>
+    <td>Evening</td>
+
+</tr>
+</thead>
+<tbody>
+
+<tr>
+    
+        <td>Monday</td>
+        <td>8-9am</td>
+        <td>12-1pm</td>
+  
+    
+</tr>
+<tr>
+    
+    <td>Tuesday</td>
+    <td>10-11am</td>
+    <td>1-2pm</td>
 
 
+</tr>
+<tr>
+    <td>Wednesday</td>
+    <td>7-8am</td>
+    <td>2-3pm</td>
+</tr>
+<tr>
     
+        <td>Thurday</td>
+        <td>7-8am</td>
+        <td>9-10pm</td>
+  
     
+</tr>
+<tr>
+    <td>Friday</td>
+    <td>10-11am</td>
+    <td>10-11pm</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+    <td colspan="3">by appt on calendly</td>
+    
+</tr>
+</tfoot>
+    </table>
+    </figure>
+</div>
+<div id="linerid">
+
+    <img id="puzid" src="images/puzzl3.png" alt="right side filler photo of puzzle"> 
+
+</div>
+
+
     <footer id="footid">
-        <p>jim parente <br>
-        jpqwp@missouri.edu<br>
-        &copy; Copyright 2021 jparente</p>
+        <p>&copy; Copyright 2021 jparente</p>
     </footer>
 </body>
 </html>

@@ -1,0 +1,83 @@
+fieldset{
+width: 80%;
+margin-top: 1em;
+margin-bottom: 1em;
+padding-top: 1em;
+border-color:#536c99;
+border-width: 5px;
+}
+#comments{
+    width:15.5em; 
+    height:100px;
+    margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+}
+    legend{
+    
+font-weight: bold;
+    color:rgb(0, 0, 0);
+    margin-bottom: 2em;
+}
+
+label {
+    float: left;
+    width: 10em;
+    text-align: right;
+}
+
+    input, select {
+        width:15em;
+        height:2em;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        
+    }
+
+   input:required, input[required] {
+       border: 2px solid #536c99;
+          }
+
+          input:valid {
+              border: 1px solid black;
+                        }
+input:invalid{
+    box-shadow: none;
+}
+
+textarea:required, textarea[required] {
+    border: 2px solid #536c99;
+       }
+
+       textarea:valid {
+           border: 1px solid black;
+                     }
+textarea:invalid{
+ box-shadow: none;
+}
+
+
+    .but{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:bold;
+       background-color: #536c99;
+        color: white;
+       width: 15em;
+       margin-left: 210px;
+       border-color:black;
+    }
+br {clear:both;}
+
+@media screen and (max-width:1550px) { 
+    label {
+        float: left;
+        width: 10em;
+        text-align: left;
+    }
+
+    .but {
+margin-left: 10px;
+}
+
+}
