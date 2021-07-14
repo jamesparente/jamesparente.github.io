@@ -50,6 +50,7 @@
 
         }
         #mainid{
+            font-family: 'Times New Roman', Times, serif;
             border: none;
             margin:0;
             padding:0;
@@ -59,7 +60,9 @@
             margin-left: 1in;
             margin-right: 1in;
         } 
-        p{ orphans:3;
+        p{ 
+            font-family: 'Times New Roman', Times, serif;
+            orphans:3;
         widows:3;
         font-size: 11pt; }
 
