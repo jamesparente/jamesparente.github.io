@@ -1,0 +1,64 @@
+@media print {
+
+
+* {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    }
+
+
+#headerid {
+    text-align: left;
+}
+#edlistid {
+    display: block !important;
+}
+
+    #bodyid {
+        font-family: 'Times New Roman', Times, serif;
+        color:black;
+            background-color: white;
+            text-align: left;
+    width:100%;   
+
+    }
+    #linerid, #photoid, #paraid, #helloid, #resumeid {display: none;}
+    #navid #anone #logid {text-align: left;} 
+    #navid ul li {display: none;}
+    
+       ul, h1, h2, h3, #headerid, #headingid,#mainid, #footid, #quoteid, #paraid {
+            
+        width:7in;
+            page-break-after: avoid;
+        }
+        a[href="http"]::after {
+            content: " [" attr(href)"]";
+            color:blue;
+
+        }
+        #headingid {
+            font-family: 'Oi', cursive;
+            border: none;
+            margin:0;
+            padding:0;
+       
+
+        }
+        #mainid{
+            border: none;
+            margin:0;
+            padding:0;
+
+        }
+         @page {
+            margin-left: 1in;
+            margin-right: 1in;
+        } 
+        p{ orphans:3;
+        widows:3;
+        font-size: 11pt; }
+
+}
+
