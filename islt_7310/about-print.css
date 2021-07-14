@@ -41,10 +41,11 @@
             color:blue;
 
         }
+        h1 {font-family: 'Oi', cursive;}
         #headingid {
             width:7in;
         page-break-after: avoid;
-            font-family: 'Oi', cursive;
+            
             border: none;
             margin:0;
             padding:0;
