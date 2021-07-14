@@ -70,5 +70,9 @@
         widows:3;
         font-size: 11pt; }
 
+        #email, #phone, #credits
+        {display: 
+            none;}
+
 }
 

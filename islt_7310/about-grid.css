@@ -12,9 +12,10 @@ background-color:#5fa3cf ;
 ". foot-area foot-area foot-area";
     
     }
-#edlistid {
+/* -not needed at the moment, only need one version with list
+ #edlistid {
     display: none;
-}
+} */
 
 #menu-icon {
             background: url(images/burger.svg) no-repeat center;
