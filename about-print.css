@@ -24,7 +24,7 @@
     width:100%;   
 
     }
-    #linerid, #photoid, #paraid, #helloid, #resumeid {display: none;}
+    #puzid, #linerid, #photoid, #paraid, #helloid, #resumeid {display: none;}
     #navid #anone #logid {text-align: left;} 
     #navid ul li {display: none;}
     
