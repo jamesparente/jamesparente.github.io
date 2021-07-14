@@ -15,6 +15,9 @@
 #edlistid {
     display: block !important;
 }
+#linerid {
+    display: none !important;
+}
 
     #bodyid {
         font-family: 'Times New Roman', Times, serif;
@@ -24,7 +27,7 @@
     width:100%;   
 
     }
-    #linerid #photoid, #paraid, #helloid, #resumeid {display: none;}
+    #photoid, #paraid, #helloid, #resumeid {display: none;}
     #navid #anone #logid {text-align: left;} 
     #navid ul li {display: none;}
     
