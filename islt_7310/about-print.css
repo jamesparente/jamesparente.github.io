@@ -32,7 +32,7 @@
     #navid ul li {display: none;}
     
        ul, h1, h2, h3, #headerid, #headingid,#mainid, #footid, #quoteid, #paraid {
-        font-family: 'Times New Roman', Times, serif;   
+         
         width:7in;
         page-break-after: avoid;
         }
