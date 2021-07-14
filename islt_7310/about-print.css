@@ -31,7 +31,7 @@
     #navid #anone #logid {text-align: left;} 
     #navid ul li {display: none;}
     
-       ul, h1, h2, h3, #headerid, #headingid,#mainid, #footid, #quoteid, #paraid {
+       ul, h1, h2, h3, #headerid,#mainid, #footid, #quoteid, #paraid {
          
         width:7in;
         page-break-after: avoid;
@@ -42,6 +42,8 @@
 
         }
         #headingid {
+            width:7in;
+        page-break-after: avoid;
             font-family: 'Oi', cursive;
             border: none;
             margin:0;
