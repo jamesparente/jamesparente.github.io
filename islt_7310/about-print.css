@@ -24,7 +24,7 @@
     width:100%;   
 
     }
-    #photoid, #paraid, #helloid, #resumeid {display: none;}
+    #linerid #photoid, #paraid, #helloid, #resumeid {display: none;}
     #navid #anone #logid {text-align: left;} 
     #navid ul li {display: none;}
     
@@ -46,7 +46,7 @@
        
 
         }
-        mainid{
+        #mainid{
             border: none;
             margin:0;
             padding:0;
