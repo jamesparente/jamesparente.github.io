@@ -1,16 +1,21 @@
+
 #bodyid {
 background-color:#5fa3cf ;
     display: grid;
-    grid-template-columns: 35% 65%;
+    grid-template-columns:1% 25% 35% 1fr;
     grid-gap:1em;
     grid-template-areas: 
-    "header-area header-area"
-"heading-area heading-area"
-"main-area photo-area"
-"quote-area quote-area"
-"foot-area foot-area";
+    ". header-area header-area header-area"
+". heading-area heading-area liner-area"
+". main-area photo-area liner-area"
+". quote-area quote-area liner-area"
+". foot-area foot-area foot-area";
     
     }
+#edlistid {
+    display: none;
+}
+
 #menu-icon {
             background: url(images/burger.svg) no-repeat center;
             display:none;
@@ -95,7 +100,24 @@ background-color:#5fa3cf ;
         
         }
         
+        #linerid {
+
+            display:none;
     
+        }
+    }
+
+    #linerid {
+
+        grid-area: liner-area;
+
+    }
+
+    #puzid {
+
+        height:700px;
+        width:400px;
+
     }
     #headerid{
          
