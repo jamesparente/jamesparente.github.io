@@ -6,8 +6,8 @@ background-color:#5fa3cf ;
     grid-template-areas: 
     ". header-area header-area header-area"
 ". heading-area heading-area liner-area"
-". main-area . liner-area"
-". main-area . liner-area"
+". main-area photo-area liner-area"
+". main-area photo-area liner-area"
 ". foot-area foot-area foot-area";
     
     }
@@ -87,6 +87,7 @@ background-color:#5fa3cf ;
             "header-area "
         "heading-area"
         "main-area"
+        "photo-area"
         "foot-area";
 
 
@@ -143,7 +144,7 @@ background-color:#5fa3cf ;
     #photoid{
        
         grid-area: photo-area;
-        text-align: left;        }
+        text-align: center;        }
        
     
     #quoteid{

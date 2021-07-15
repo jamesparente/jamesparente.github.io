@@ -6,8 +6,11 @@ background-color:#5fa3cf ;
     grid-template-areas: 
     ". header-area header-area header-area"
 ". heading-area heading-area liner-area "
-". main-area photo-area liner-area"
-". quote-area quote-area liner-area"
+". main-area previd-area liner-area"
+". one-area vid1-area liner-area"
+". two-area vid2-area liner-area"
+". three-area vid3-area liner-area"
+". four-area vid4-area liner-area"
 ". foot-area foot-area foot-area";
     
     }
@@ -84,9 +87,18 @@ background-color:#5fa3cf ;
             grid-template-columns: 1fr;
             grid-gap:1em;
             grid-template-areas: 
-            "header-area "
+            "header-area"
         "heading-area"
-        "main-area "
+        "main-area"
+        "previd-area"
+        "one-area"
+        "vid1-area"
+        "two-area" 
+        "vid2-area"
+        "three-area" 
+        "vid3-area"
+        "four-area" 
+        "vid4-area"
         "foot-area";
 
 
@@ -153,6 +165,35 @@ background-color:#5fa3cf ;
     
         grid-area: resume-area;
     }
+
+    #mainid{grid-area: main-area;} 
+    #previd{grid-area: previd-area;
+        text-align: center;
+        align-items: center;
+        justify-content: center;}
+    #one{grid-area: one-area;}
+    #two{grid-area: two-area;}
+    #three{grid-area: three-area;}
+    #four{grid-area: four-area;}
+    
+    #vid1{grid-area:vid1-area;
+    text-align: center;
+    padding-top:10%;}
+    
+    #vid2{
+        grid-area:vid2-area;
+        text-align: center;
+        padding-top:10%;}
+    #vid3{grid-area:vid3-area;
+        text-align: center;
+        padding-top:10%;}
+    #vid4{grid-area:vid4-area;
+        text-align: center;
+        padding-top:10%;}
+
+
+
+
 
 
     #footid {

@@ -1,13 +1,13 @@
 #bodyid {
 background-color:#5fa3cf ;
     display: grid;
-    grid-template-columns: 1% 25% 35% 1fr;
+    grid-template-columns: 1% 35% 25% 1fr;
     grid-gap:1em;
     grid-template-areas: 
     ". header-area header-area header-area"
 ". heading-area heading-area liner-area"
-". main-area main-area liner-area"
-". main-area main-area liner-area"
+". main-area photo-area liner-area"
+". main-area photo-area liner-area"
 ". foot-area foot-area foot-area";
     
     }
@@ -87,13 +87,12 @@ background-color:#5fa3cf ;
             "header-area "
         "heading-area"
         "main-area "
-        
         "foot-area";
 
 
         
         }
-        #linerid {
+        #photoid, #linerid {
 
             display: none;
     
