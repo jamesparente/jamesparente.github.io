@@ -87,6 +87,7 @@ h3 {font-family: 'Beth Ellen', cursive;
  
     #email, #phone {
       vertical-align:bottom;
+      transition: width 1s;
     }
 #footid{
   padding: 10px;
@@ -94,6 +95,14 @@ h3 {font-family: 'Beth Ellen', cursive;
   background-repeat:no-repeat;
   background-size: cover;
   
+}
+
+#email:hover {
+  width: 40px;
+}
+#phone:hover {
+  
+  width: 40px;
 }
 
   /*other format */

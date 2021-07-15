@@ -89,6 +89,27 @@
 
  
   
+ 
+#email, #phone {
+  vertical-align:bottom;
+  transition: width 1s;
+}
+
+#footid{
+padding: 10px;
+background-image:url("images/clould_puz2.png");
+background-repeat:no-repeat;
+background-size: cover;
+}
+
+#email:hover {
+width: 40px;
+}
+
+#phone:hover {
+ width: 40px;
+}
+
 
 
   
