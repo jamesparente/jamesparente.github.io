@@ -62,7 +62,7 @@ background-color:#5fa3cf ;
                         display: block;
                     }
                     nav li {
-                        text-align:top;
+                        /* text-align:top; */
                         width: 100%;
                         margin: 0px;
                     }
@@ -73,12 +73,12 @@ background-color:#5fa3cf ;
                         width: 65%;
                         padding: 0px 0px;
                         margin-top: 0px;
-                        border-end-end-radius: 0px;
+                        border-bottom-right-radius: 0px;
                     }
 
                     #cpage {
     
-                        border-end-end-radius: none;
+                        border-bottom-right-radius: 0px;
                         box-shadow: none;
                       }
 

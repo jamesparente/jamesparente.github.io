@@ -63,7 +63,7 @@
     color: white;
     font-weight: bold;
     border: 2px solid black;
-    border-end-end-radius: 35px;
+    border-bottom-right-radius: 35px;
     box-shadow: 5px 5px 10px rgb(24, 24, 24);
     margin: 2px;
     
@@ -75,7 +75,7 @@
   }
   #cpage {
     
-    border-end-end-radius: 35px;
+    border-bottom-right-radius: 35px;
     box-shadow: 9px 9px 10px rgb(255, 255, 255);
   }
  
