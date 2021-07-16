@@ -197,7 +197,8 @@ background-color:#5fa3cf ;
 
 
     #footid {
-     
+        text-align:center;
+        font-size:x-small;
         grid-area: foot-area;
     }
     

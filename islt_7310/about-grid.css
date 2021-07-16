@@ -154,8 +154,8 @@ background-color:#5fa3cf ;
        
     
     #quoteid{
-    
-        grid-area: quote-area;
+    font-size: smaller;
+    grid-area: quote-area;
     }
     #resumeid{
     
@@ -164,7 +164,8 @@ background-color:#5fa3cf ;
 
 
     #footid {
-     
+        text-align:center;
+        font-size:x-small;
         grid-area: foot-area;
     }
     
