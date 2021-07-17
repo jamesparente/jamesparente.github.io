@@ -8,6 +8,7 @@ background-color:#5fa3cf ;
 ". heading-area heading-area liner-area"
 ". main-area photo-area liner-area"
 ". main-area photo-area liner-area"
+". slideshow-area slideshow-area ."
 ". foot-area foot-area foot-area";
     
     }
@@ -86,11 +87,16 @@ background-color:#5fa3cf ;
             grid-template-areas: 
             "header-area "
         "heading-area"
-        "main-area "
+        "main-area"
+        "slideshow-area"
         "foot-area";
 
 
         
+        }
+
+        #slides img {
+            display: none;
         }
         #photoid, #linerid {
 
@@ -156,6 +162,15 @@ background-color:#5fa3cf ;
         grid-area: resume-area;
     }
 
+#slides img {
+    display: none;
+}
+
+
+    #slideshowid {
+
+        grid-area: slideshow-area;
+    }
 
     #footid {
         text-align:center;
