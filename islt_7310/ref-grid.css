@@ -23,6 +23,8 @@ background-color:#5fa3cf ;
     @media screen and (max-width:1000px) { 
   p{font-size: smaller;}
   h1{font-size: smaller;}
+  h2{font-size: smaller;}
+
   h3{font-size: smaller;}
         #menu-icon {
             
@@ -166,10 +168,15 @@ background-color:#5fa3cf ;
     display: none;
 }
 
+h2{font-size: smaller;}
 
     #slideshowid {
 
         grid-area: slideshow-area;
+    }
+
+    #slideshowid img{
+        width: 50%;
     }
 
     #footid {
