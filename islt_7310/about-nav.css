@@ -9,8 +9,8 @@
   box-shadow: 5px 5px 10px rgb(0, 0, 0);
 } 
 
-h3 {font-family: 'Beth Ellen', cursive;
-}
+/* h3 {font-family: 'Beth Ellen', cursive;
+} */
 #navid ul {
   list-style: none;
   position: relative;
@@ -80,8 +80,8 @@ h3 {font-family: 'Beth Ellen', cursive;
   }
  
   #photoid img{
-    padding-top: 60px;
-    padding-left: 35px;
+    /* padding-top: 60px; */
+    /* padding-left: 35px; */
     width: 55%;
     }
  

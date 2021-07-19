@@ -5,12 +5,12 @@ background-color:#5fa3cf ;
     grid-gap:1em;
     grid-template-areas: 
     ". header-area header-area header-area"
-". heading-area heading-area liner-area "
+". heading-area heading-area . "
 ". main-area previd-area liner-area"
 ". one-area vid1-area liner-area"
 ". two-area vid2-area liner-area"
-". three-area vid3-area liner-area"
-". four-area vid4-area liner-area"
+". three-area vid3-area liner2-area"
+". four-area vid4-area liner2-area"
 ". foot-area foot-area foot-area";
     
     }
@@ -109,6 +109,11 @@ background-color:#5fa3cf ;
             display: none;
     
         }
+        #linerid2 {
+
+            display: none;
+    
+        }
     
     }
 
@@ -117,13 +122,22 @@ background-color:#5fa3cf ;
         grid-area: liner-area;
 
     }
+    #linerid2 {
+
+        grid-area: liner2-area;
+
+    }
 
     #puzid {
 
         height:700px;
         width:400px;
     }
+    #puzid2 {
 
+        height:700px;
+        width:400px;
+    }
     #headerid{
          
         grid-area: header-area;

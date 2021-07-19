@@ -8,7 +8,7 @@ background-color:#5fa3cf ;
     ". header-area header-area header-area"
 ". heading-area heading-area liner-area"
 ". main-area photo-area liner-area"
-". quote-area quote-area liner-area"
+ ". . quote-area quote-area" 
 ". foot-area foot-area foot-area";
     
     }
@@ -94,7 +94,7 @@ background-color:#5fa3cf ;
         "heading-area"
         "main-area "
         "photo-area"
-        "quote-area"
+         "quote-area"
         "foot-area";
 
 
@@ -154,8 +154,9 @@ background-color:#5fa3cf ;
        
     
     #quoteid{
-    font-size: smaller;
+    font-size: small;
     grid-area: quote-area;
+    text-align: center;
     }
     #resumeid{
     
