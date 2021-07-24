@@ -26,6 +26,8 @@ background-color:#5fa3cf ;
   h2{font-size: smaller;}
 
   h3{font-size: smaller;}
+  h4{font-size: smaller;}
+
         #menu-icon {
             
             background: url(images/burger.svg) no-repeat bottom;
@@ -169,6 +171,7 @@ background-color:#5fa3cf ;
 }
 
 h2{font-size: smaller;}
+h4{font-size: smaller;}
 
     #slideshowid {
 

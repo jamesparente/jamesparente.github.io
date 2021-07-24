@@ -22,7 +22,7 @@ background-color:#5fa3cf ;
         
         }
 
-    @media screen and (max-width:1000px) { 
+    @media screen and (max-width:1100px) { 
   p{font-size: smaller;}
   h1{font-size: smaller;}
   h3{font-size: smaller;}
@@ -120,16 +120,19 @@ background-color:#5fa3cf ;
     #linerid {
 
         grid-area: liner-area;
-
+        text-align: center;
+        
+        
     }
     #linerid2 {
 
         grid-area: liner2-area;
-
+        text-align: center;
+        
     }
 
     #puzid {
-
+    
         height:700px;
         width:400px;
     }
