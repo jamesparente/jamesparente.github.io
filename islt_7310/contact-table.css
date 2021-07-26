@@ -14,6 +14,8 @@ tbody tr:nth-child(odd){
   
 }
 
+
+
 th.left, td.left {text-align: left;}
 thead, tfoot 
 {background-color: #536c99;
@@ -21,7 +23,7 @@ font-weight: bold;
 color: white;}
 
 
-@media screen and (max-width:1000px) { 
+@media screen and (max-width:1475px) { 
   
 th,td {
     display:block;
